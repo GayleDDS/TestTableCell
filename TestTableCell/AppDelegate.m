@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Gayle Dunham. All rights reserved.
 //
 
-#import "DDSAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation DDSAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

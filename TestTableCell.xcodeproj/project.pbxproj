@@ -12,7 +12,7 @@
 		C37A23DF1757EEBB00C92DE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37A23DE1757EEBB00C92DE4 /* CoreGraphics.framework */; };
 		C37A23E51757EEBB00C92DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C37A23E31757EEBB00C92DE4 /* InfoPlist.strings */; };
 		C37A23E71757EEBB00C92DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A23E61757EEBB00C92DE4 /* main.m */; };
-		C37A23EB1757EEBB00C92DE4 /* DDSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A23EA1757EEBB00C92DE4 /* DDSAppDelegate.m */; };
+		C37A23EB1757EEBB00C92DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A23EA1757EEBB00C92DE4 /* AppDelegate.m */; };
 		C37A23ED1757EEBB00C92DE4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C37A23EC1757EEBB00C92DE4 /* Default.png */; };
 		C37A23EF1757EEBB00C92DE4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37A23EE1757EEBB00C92DE4 /* Default@2x.png */; };
 		C37A23F11757EEBB00C92DE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37A23F01757EEBB00C92DE4 /* Default-568h@2x.png */; };
@@ -21,6 +21,11 @@
 		C37A23FB1757EEBB00C92DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37A23DC1757EEBB00C92DE4 /* Foundation.framework */; };
 		C37A24031757EEBB00C92DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C37A24011757EEBB00C92DE4 /* InfoPlist.strings */; };
 		C37A24061757EEBB00C92DE4 /* TestTableCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A24051757EEBB00C92DE4 /* TestTableCellTests.m */; };
+		C37A241017591B7E00C92DE4 /* TableViewCellPrototype.xib in Resources */ = {isa = PBXBuildFile; fileRef = C37A240F17591B7E00C92DE4 /* TableViewCellPrototype.xib */; };
+		C37A241317591BB200C92DE4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A241217591BB200C92DE4 /* TableViewController.m */; };
+		C37A241617591BE800C92DE4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C37A241517591BE800C92DE4 /* TableViewCell.m */; };
+		C37A241817591E4D00C92DE4 /* DirtyGolden@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C37A241717591E4D00C92DE4 /* DirtyGolden@2x.png */; };
+		C37A241A17591E5600C92DE4 /* DirtyGolden.png in Resources */ = {isa = PBXBuildFile; fileRef = C37A241917591E5600C92DE4 /* DirtyGolden.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +47,8 @@
 		C37A23E41757EEBB00C92DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C37A23E61757EEBB00C92DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C37A23E81757EEBB00C92DE4 /* TestTableCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTableCell-Prefix.pch"; sourceTree = "<group>"; };
-		C37A23E91757EEBB00C92DE4 /* DDSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDSAppDelegate.h; sourceTree = "<group>"; };
-		C37A23EA1757EEBB00C92DE4 /* DDSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDSAppDelegate.m; sourceTree = "<group>"; };
+		C37A23E91757EEBB00C92DE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C37A23EA1757EEBB00C92DE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C37A23EC1757EEBB00C92DE4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C37A23EE1757EEBB00C92DE4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C37A23F01757EEBB00C92DE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -53,6 +58,13 @@
 		C37A24021757EEBB00C92DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C37A24041757EEBB00C92DE4 /* TestTableCellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableCellTests.h; sourceTree = "<group>"; };
 		C37A24051757EEBB00C92DE4 /* TestTableCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableCellTests.m; sourceTree = "<group>"; };
+		C37A240F17591B7E00C92DE4 /* TableViewCellPrototype.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellPrototype.xib; sourceTree = "<group>"; };
+		C37A241117591BB200C92DE4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C37A241217591BB200C92DE4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C37A241417591BE800C92DE4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C37A241517591BE800C92DE4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		C37A241717591E4D00C92DE4 /* DirtyGolden@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DirtyGolden@2x.png"; sourceTree = "<group>"; };
+		C37A241917591E5600C92DE4 /* DirtyGolden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DirtyGolden.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +124,16 @@
 		C37A23E01757EEBB00C92DE4 /* TestTableCell */ = {
 			isa = PBXGroup;
 			children = (
-				C37A23E91757EEBB00C92DE4 /* DDSAppDelegate.h */,
-				C37A23EA1757EEBB00C92DE4 /* DDSAppDelegate.m */,
+				C37A23E91757EEBB00C92DE4 /* AppDelegate.h */,
+				C37A23EA1757EEBB00C92DE4 /* AppDelegate.m */,
 				C37A23E11757EEBB00C92DE4 /* Supporting Files */,
+				C37A241117591BB200C92DE4 /* TableViewController.h */,
+				C37A241217591BB200C92DE4 /* TableViewController.m */,
+				C37A241417591BE800C92DE4 /* TableViewCell.h */,
+				C37A241517591BE800C92DE4 /* TableViewCell.m */,
+				C37A240F17591B7E00C92DE4 /* TableViewCellPrototype.xib */,
+				C37A241717591E4D00C92DE4 /* DirtyGolden@2x.png */,
+				C37A241917591E5600C92DE4 /* DirtyGolden.png */,
 			);
 			path = TestTableCell;
 			sourceTree = "<group>";
@@ -228,6 +247,9 @@
 				C37A23ED1757EEBB00C92DE4 /* Default.png in Resources */,
 				C37A23EF1757EEBB00C92DE4 /* Default@2x.png in Resources */,
 				C37A23F11757EEBB00C92DE4 /* Default-568h@2x.png in Resources */,
+				C37A241017591B7E00C92DE4 /* TableViewCellPrototype.xib in Resources */,
+				C37A241817591E4D00C92DE4 /* DirtyGolden@2x.png in Resources */,
+				C37A241A17591E5600C92DE4 /* DirtyGolden.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37A23E71757EEBB00C92DE4 /* main.m in Sources */,
-				C37A23EB1757EEBB00C92DE4 /* DDSAppDelegate.m in Sources */,
+				C37A23EB1757EEBB00C92DE4 /* AppDelegate.m in Sources */,
+				C37A241317591BB200C92DE4 /* TableViewController.m in Sources */,
+				C37A241617591BE800C92DE4 /* TableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +391,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestTableCell/TestTableCell-Prefix.pch";
 				INFOPLIST_FILE = "TestTableCell/TestTableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -378,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestTableCell/TestTableCell-Prefix.pch";
 				INFOPLIST_FILE = "TestTableCell/TestTableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
