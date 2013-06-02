@@ -10,4 +10,8 @@
 
 @interface TableViewCell : UITableViewCell
 
+@property (strong, nonatomic) IBOutlet UIImageView *LeftImageView;
+@property (strong, nonatomic) IBOutlet UILabel     *centerTextLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *rightImageView;
+
 @end
